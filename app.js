@@ -70,4 +70,8 @@ function displayAge(year, month, day) {
   years.appendChild(yearNode);
   months.appendChild(monthNode);
   days.appendChild(dayNode);
+
+  years.style.color = "green";
+  months.style.color = "yellow";
+  days.style.color = "blue";
 }
